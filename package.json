@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js",
+    "debug": "node App.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +19,9 @@
   "homepage": "https://github.com/vivekthiru/nodewebapp#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.16.2"
+    "JSONPath": "^0.11.2",
+    "express": "^4.16.1",
+    "node-rest-client": "^3.1.0",
+    "request": "^2.83.0"
   }
 }
